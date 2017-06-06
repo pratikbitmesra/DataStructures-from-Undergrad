@@ -46,9 +46,6 @@ def Postorder(root):
                 
                 
                 
-def Inorder(root):
-        if root:
-                Inorder(
 
 def main():
         root = Node(1)
