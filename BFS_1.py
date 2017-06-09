@@ -48,7 +48,7 @@ class Node:
                 return rheight+1
             
     # Function to print level order traversal of tree
-    def printLevelOrder(root):
+    def printLevelOrder(root, level):
         h = height(root)
         for i in range(1,(h+1)):
             printGivenLevel(root,i)
