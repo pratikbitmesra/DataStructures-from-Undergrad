@@ -48,10 +48,19 @@ class Node:
                 return rheight+1
             
     # Function to print level order traversal of tree
-    def printLevelOrder(root, level):
+    def printLevelOrder(root):
         h = height(root)
         for i in range(1,(h+1)):
             printGivenLevel(root,i)
+            
+    def printGivenLevel(root, level):
+      if root is None:
+         return
+      if level == 1:
+         print (root.data)
+      elif:
+         printGivenLevel(root.left, level-1)
+         printGivenLevel(root.right, level-1)
         
     '''
     Compute the height of a tree--the number of nodes
