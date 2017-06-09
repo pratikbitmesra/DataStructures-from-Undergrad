@@ -3,7 +3,9 @@ Maximum and Minimum in a Binary tree
 
 http://quiz.geeksforgeeks.org/find-maximum-or-minimum-in-binary-tree/
 
-In Binary Search Tree, we can find maximum by traversing right pointers until we reach rightmost node. But in Binary Tree, we must visit every node to figure out maximum. So the idea is to traverse the given tree and for every node return maximum of 3 values.
+In Binary Search Tree, we can find maximum by traversing right pointers until we reach rightmost node. 
+But in Binary Tree, we must visit every node to figure out maximum. So the idea is to traverse the given
+tree and for every node return maximum of 3 values.
 1) Nodes data.
 2) Maximum in nodes left subtree.
 3) Maximum in nodes right subtree.
