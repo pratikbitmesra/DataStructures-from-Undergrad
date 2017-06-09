@@ -4,7 +4,9 @@ Inorder Traversal without recursion without stack
 Also known as Morris Traversal based on threaded binary tree
 http://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/
 
-Using Morris Traversal, we can traverse the tree without using stack and recursion. The idea of Morris Traversal is based on Threaded Binary Tree. In this traversal, we first create links to Inorder successor and print the data using these links, and finally revert the changes to restore original tree.
+Using Morris Traversal, we can traverse the tree without using stack and recursion. The idea of Morris Traversal is based on
+Threaded Binary Tree. In this traversal, we first create links to Inorder successor and print the data using these links, 
+and finally revert the changes to restore original tree.
 
 1. Initialize current as root 
 2. While current is not NULL
