@@ -70,7 +70,7 @@ def buildTree(inorder, preorder, in_start, in_end):
         if in_start == in_end:
                 return tempNode
 
-        inIndex = search(inorder, preorder, in_start, in_end, tempNode.data)
+        inIndex = search(inorder, in_start, in_end, tempNode.data)
         
         tempNode.left = buildTree(inorder, preorder, in_start, inIndex-1)
         tempNode.right = buildTree(inorder, preorder, inIndex+1, in_end)
