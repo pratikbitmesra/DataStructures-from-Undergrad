@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 http://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
-Created on Wed Jun 07 18:17:17 2017
+Created on Wed Jun 07 18:17:17 2010
 
 @author: Pratik Mishra
 """
