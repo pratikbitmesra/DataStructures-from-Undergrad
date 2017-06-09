@@ -3,7 +3,8 @@ Print Left view
 
 http://www.geeksforgeeks.org/print-left-view-binary-tree/
 
-Given a Binary Tree, print left view of it. Left view of a Binary Tree is set of nodes visible when tree is visited from left side. Left view of following tree is 12, 10, 25.
+Given a Binary Tree, print left view of it. Left view of a Binary Tree is set of nodes 
+visible when tree is visited from left side. Left view of following tree is 12, 10, 25.
 
           12
        /     \
