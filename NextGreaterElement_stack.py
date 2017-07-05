@@ -32,7 +32,7 @@ def isEmpty(stack):
 def push(stack,x):
         stack.append(x)
         
-def pop(stack):
+def push(stack):
         if isEmpty(stack):
                 print "Stack Underflow"
         else:
